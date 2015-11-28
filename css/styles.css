@@ -1,0 +1,49 @@
+*{
+	margin: 0px;
+	z-index: 0;
+}
+
+html, body
+{
+    height: 100%;
+}
+header{
+}
+
+.body-fluid{
+	width: 100%;
+	background-color: white;
+}
+
+.header-div{
+	z-index: 99;
+	position: relative;
+	width: 100%;
+	padding: 5px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	background-color: black;
+}
+
+.header-logo{
+}
+
+.container{
+	height: 100%;
+}
+
+.page-container{
+	z-index: 1;
+	position: relative;
+	margin-top: -66px;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ),
+    url("../img/pronagel-poster.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(0.5) blur(4px);
+}
